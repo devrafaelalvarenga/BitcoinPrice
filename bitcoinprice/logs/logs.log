@@ -1,0 +1,406 @@
+2025-05-31 01:40:11,320 - BitcoinPriceLogger.bitcoinprice.database.connection - INFO - Conexão com o banco de dados estabelecida com sucesso.
+2025-05-31 01:40:11,320 - BitcoinPriceLogger.bitcoinprice.database.connection - INFO - Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 01:40:11 BitcoinPriceLogger.bitcoinprice.database.connection INFO     Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 01:40:13 sqlalchemy.engine.Engine INFO     select pg_catalog.version()
+25-05-31 01:40:13 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 01:40:13 sqlalchemy.engine.Engine INFO     select current_schema()
+25-05-31 01:40:13 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 01:40:14 sqlalchemy.engine.Engine INFO     show standard_conforming_strings
+25-05-31 01:40:14 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 01:40:14 sqlalchemy.engine.Engine INFO     BEGIN (implicit)
+25-05-31 01:40:14 sqlalchemy.engine.Engine INFO     SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = %(table_name)s AND pg_catalog.pg_class.relkind = ANY (ARRAY[%(param_1)s, %(param_2)s, %(param_3)s, %(param_4)s, %(param_5)s]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != %(nspname_1)s
+25-05-31 01:40:14 sqlalchemy.engine.Engine INFO     [generated in 0.00110s] {'table_name': 'raw_coinbase_price_btc', 'param_1': 'r', 'param_2': 'p', 'param_3': 'f', 'param_4': 'v', 'param_5': 'm', 'nspname_1': 'pg_catalog'}
+25-05-31 01:40:15 sqlalchemy.engine.Engine INFO     COMMIT
+2025-05-31 01:40:15,716 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Iniciando a extração dos dados da API - Coinbase.
+2025-05-31 01:40:15,716 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Iniciando a extração dos dados da API - Coinbase.
+25-05-31 01:40:15 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Iniciando a extração dos dados da API - Coinbase.
+2025-05-31 01:40:16,035 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Dados extraídos com sucesso
+2025-05-31 01:40:16,035 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Dados extraídos com sucesso
+25-05-31 01:40:16 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Dados extraídos com sucesso
+2025-05-31 01:41:17,558 - BitcoinPriceLogger.bitcoinprice.database.connection - INFO - Conexão com o banco de dados estabelecida com sucesso.
+2025-05-31 01:41:17,558 - BitcoinPriceLogger.bitcoinprice.database.connection - INFO - Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 01:41:17 BitcoinPriceLogger.bitcoinprice.database.connection INFO     Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 01:41:19 sqlalchemy.engine.Engine INFO     select pg_catalog.version()
+25-05-31 01:41:19 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 01:41:19 sqlalchemy.engine.Engine INFO     select current_schema()
+25-05-31 01:41:19 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 01:41:20 sqlalchemy.engine.Engine INFO     show standard_conforming_strings
+25-05-31 01:41:20 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 01:41:20 sqlalchemy.engine.Engine INFO     BEGIN (implicit)
+25-05-31 01:41:20 sqlalchemy.engine.Engine INFO     SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = %(table_name)s AND pg_catalog.pg_class.relkind = ANY (ARRAY[%(param_1)s, %(param_2)s, %(param_3)s, %(param_4)s, %(param_5)s]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != %(nspname_1)s
+25-05-31 01:41:20 sqlalchemy.engine.Engine INFO     [generated in 0.00085s] {'table_name': 'raw_coinbase_price_btc', 'param_1': 'r', 'param_2': 'p', 'param_3': 'f', 'param_4': 'v', 'param_5': 'm', 'nspname_1': 'pg_catalog'}
+25-05-31 01:41:21 sqlalchemy.engine.Engine INFO     COMMIT
+2025-05-31 01:41:21,421 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Iniciando a extração dos dados da API - Coinbase.
+2025-05-31 01:41:21,421 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Iniciando a extração dos dados da API - Coinbase.
+25-05-31 01:41:21 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Iniciando a extração dos dados da API - Coinbase.
+2025-05-31 01:41:21,706 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Dados extraídos com sucesso
+2025-05-31 01:41:21,706 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Dados extraídos com sucesso
+25-05-31 01:41:21 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Dados extraídos com sucesso
+2025-05-31 01:45:03,946 - BitcoinPriceLogger.bitcoinprice.database.connection - INFO - Conexão com o banco de dados estabelecida com sucesso.
+2025-05-31 01:45:03,946 - BitcoinPriceLogger.bitcoinprice.database.connection - INFO - Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 01:45:03 BitcoinPriceLogger.bitcoinprice.database.connection INFO     Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 01:45:05 sqlalchemy.engine.Engine INFO     select pg_catalog.version()
+25-05-31 01:45:05 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 01:45:06 sqlalchemy.engine.Engine INFO     select current_schema()
+25-05-31 01:45:06 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 01:45:06 sqlalchemy.engine.Engine INFO     show standard_conforming_strings
+25-05-31 01:45:06 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 01:45:07 sqlalchemy.engine.Engine INFO     BEGIN (implicit)
+25-05-31 01:45:07 sqlalchemy.engine.Engine INFO     SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = %(table_name)s AND pg_catalog.pg_class.relkind = ANY (ARRAY[%(param_1)s, %(param_2)s, %(param_3)s, %(param_4)s, %(param_5)s]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != %(nspname_1)s
+25-05-31 01:45:07 sqlalchemy.engine.Engine INFO     [generated in 0.00094s] {'table_name': 'raw_coinbase_price_btc', 'param_1': 'r', 'param_2': 'p', 'param_3': 'f', 'param_4': 'v', 'param_5': 'm', 'nspname_1': 'pg_catalog'}
+25-05-31 01:45:07 sqlalchemy.engine.Engine INFO     COMMIT
+2025-05-31 01:45:07,901 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Iniciando a extração dos dados da API - Coinbase.
+2025-05-31 01:45:07,901 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Iniciando a extração dos dados da API - Coinbase.
+25-05-31 01:45:07 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Iniciando a extração dos dados da API - Coinbase.
+2025-05-31 01:45:08,168 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Dados extraídos com sucesso
+2025-05-31 01:45:08,168 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Dados extraídos com sucesso
+25-05-31 01:45:08 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Dados extraídos com sucesso
+2025-05-31 01:45:08,169 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Iniciando a transformaçao dos dados extraidos.
+2025-05-31 01:45:08,169 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Iniciando a transformaçao dos dados extraidos.
+25-05-31 01:45:08 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Iniciando a transformaçao dos dados extraidos.
+2025-05-31 01:47:48,711 - BitcoinPriceLogger.bitcoinprice.database.connection - INFO - Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 01:47:48 BitcoinPriceLogger.bitcoinprice.database.connection INFO     Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 01:47:50 sqlalchemy.engine.Engine INFO     select pg_catalog.version()
+25-05-31 01:47:50 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 01:47:50 sqlalchemy.engine.Engine INFO     select current_schema()
+25-05-31 01:47:50 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 01:47:51 sqlalchemy.engine.Engine INFO     show standard_conforming_strings
+25-05-31 01:47:51 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 01:47:51 sqlalchemy.engine.Engine INFO     BEGIN (implicit)
+25-05-31 01:47:51 sqlalchemy.engine.Engine INFO     SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = %(table_name)s AND pg_catalog.pg_class.relkind = ANY (ARRAY[%(param_1)s, %(param_2)s, %(param_3)s, %(param_4)s, %(param_5)s]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != %(nspname_1)s
+25-05-31 01:47:51 sqlalchemy.engine.Engine INFO     [generated in 0.00142s] {'table_name': 'raw_coinbase_price_btc', 'param_1': 'r', 'param_2': 'p', 'param_3': 'f', 'param_4': 'v', 'param_5': 'm', 'nspname_1': 'pg_catalog'}
+25-05-31 01:47:52 sqlalchemy.engine.Engine INFO     COMMIT
+2025-05-31 01:47:52,489 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Iniciando a extração dos dados da API - Coinbase.
+25-05-31 01:47:52 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Iniciando a extração dos dados da API - Coinbase.
+2025-05-31 01:47:52,763 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Dados extraídos com sucesso
+25-05-31 01:47:52 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Dados extraídos com sucesso
+2025-05-31 01:47:52,764 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Iniciando a transformaçao dos dados extraidos.
+25-05-31 01:47:52 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Iniciando a transformaçao dos dados extraidos.
+2025-05-31 01:49:21,882 - BitcoinPriceLogger.bitcoinprice.database.connection - INFO - Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 01:49:21 BitcoinPriceLogger.bitcoinprice.database.connection INFO     Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 01:49:23 sqlalchemy.engine.Engine INFO     select pg_catalog.version()
+25-05-31 01:49:23 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 01:49:24 sqlalchemy.engine.Engine INFO     select current_schema()
+25-05-31 01:49:24 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 01:49:24 sqlalchemy.engine.Engine INFO     show standard_conforming_strings
+25-05-31 01:49:24 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 01:49:25 sqlalchemy.engine.Engine INFO     BEGIN (implicit)
+25-05-31 01:49:25 sqlalchemy.engine.Engine INFO     SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = %(table_name)s AND pg_catalog.pg_class.relkind = ANY (ARRAY[%(param_1)s, %(param_2)s, %(param_3)s, %(param_4)s, %(param_5)s]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != %(nspname_1)s
+25-05-31 01:49:25 sqlalchemy.engine.Engine INFO     [generated in 0.00044s] {'table_name': 'raw_coinbase_price_btc', 'param_1': 'r', 'param_2': 'p', 'param_3': 'f', 'param_4': 'v', 'param_5': 'm', 'nspname_1': 'pg_catalog'}
+25-05-31 01:49:25 sqlalchemy.engine.Engine INFO     COMMIT
+2025-05-31 01:49:26,028 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Iniciando a extração dos dados da API - Coinbase.
+25-05-31 01:49:26 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Iniciando a extração dos dados da API - Coinbase.
+2025-05-31 01:49:26,281 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Dados extraídos com sucesso
+25-05-31 01:49:26 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Dados extraídos com sucesso
+2025-05-31 01:49:26,282 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Iniciando a transformaçao dos dados extraidos.
+25-05-31 01:49:26 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Iniciando a transformaçao dos dados extraidos.
+2025-05-31 01:49:26,284 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Dados transformados com sucesso.
+25-05-31 01:49:26 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Dados transformados com sucesso.
+2025-05-31 01:57:16,889 - BitcoinPriceLogger.bitcoinprice.database.connection - INFO - Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 01:57:16 BitcoinPriceLogger.bitcoinprice.database.connection INFO     Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 01:57:18 sqlalchemy.engine.Engine INFO     select pg_catalog.version()
+25-05-31 01:57:18 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 01:57:19 sqlalchemy.engine.Engine INFO     select current_schema()
+25-05-31 01:57:19 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 01:57:19 sqlalchemy.engine.Engine INFO     show standard_conforming_strings
+25-05-31 01:57:19 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 01:57:19 sqlalchemy.engine.Engine INFO     BEGIN (implicit)
+25-05-31 01:57:19 sqlalchemy.engine.Engine INFO     SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = %(table_name)s AND pg_catalog.pg_class.relkind = ANY (ARRAY[%(param_1)s, %(param_2)s, %(param_3)s, %(param_4)s, %(param_5)s]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != %(nspname_1)s
+25-05-31 01:57:19 sqlalchemy.engine.Engine INFO     [generated in 0.00060s] {'table_name': 'raw_coinbase_price_btc', 'param_1': 'r', 'param_2': 'p', 'param_3': 'f', 'param_4': 'v', 'param_5': 'm', 'nspname_1': 'pg_catalog'}
+25-05-31 01:57:20 sqlalchemy.engine.Engine INFO     COMMIT
+2025-05-31 01:58:24,742 - BitcoinPriceLogger.bitcoinprice.database.connection - INFO - Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 01:58:24 BitcoinPriceLogger.bitcoinprice.database.connection INFO     Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 01:58:26 sqlalchemy.engine.Engine INFO     select pg_catalog.version()
+25-05-31 01:58:26 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 01:58:27 sqlalchemy.engine.Engine INFO     select current_schema()
+25-05-31 01:58:27 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 01:58:27 sqlalchemy.engine.Engine INFO     show standard_conforming_strings
+25-05-31 01:58:27 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 01:58:28 sqlalchemy.engine.Engine INFO     BEGIN (implicit)
+25-05-31 01:58:28 sqlalchemy.engine.Engine INFO     SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = %(table_name)s AND pg_catalog.pg_class.relkind = ANY (ARRAY[%(param_1)s, %(param_2)s, %(param_3)s, %(param_4)s, %(param_5)s]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != %(nspname_1)s
+25-05-31 01:58:28 sqlalchemy.engine.Engine INFO     [generated in 0.00052s] {'table_name': 'raw_coinbase_price_btc', 'param_1': 'r', 'param_2': 'p', 'param_3': 'f', 'param_4': 'v', 'param_5': 'm', 'nspname_1': 'pg_catalog'}
+25-05-31 01:58:28 sqlalchemy.engine.Engine INFO     COMMIT
+2025-05-31 02:02:27,857 - BitcoinPriceLogger.bitcoinprice.database.connection - INFO - Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 02:02:27 BitcoinPriceLogger.bitcoinprice.database.connection INFO     Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 02:02:29 sqlalchemy.engine.Engine INFO     select pg_catalog.version()
+25-05-31 02:02:29 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 02:02:30 sqlalchemy.engine.Engine INFO     select current_schema()
+25-05-31 02:02:30 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 02:02:30 sqlalchemy.engine.Engine INFO     show standard_conforming_strings
+25-05-31 02:02:30 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 02:02:31 sqlalchemy.engine.Engine INFO     BEGIN (implicit)
+25-05-31 02:02:31 sqlalchemy.engine.Engine INFO     SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = %(table_name)s AND pg_catalog.pg_class.relkind = ANY (ARRAY[%(param_1)s, %(param_2)s, %(param_3)s, %(param_4)s, %(param_5)s]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != %(nspname_1)s
+25-05-31 02:02:31 sqlalchemy.engine.Engine INFO     [generated in 0.00045s] {'table_name': 'raw_coinbase_price_btc', 'param_1': 'r', 'param_2': 'p', 'param_3': 'f', 'param_4': 'v', 'param_5': 'm', 'nspname_1': 'pg_catalog'}
+25-05-31 02:02:31 sqlalchemy.engine.Engine INFO     COMMIT
+2025-05-31 02:02:32,080 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Iniciando a extração dos dados da API - Coinbase.
+25-05-31 02:02:32 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Iniciando a extração dos dados da API - Coinbase.
+25-05-31 02:02:32 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.coinbase.com:443
+25-05-31 02:02:32 urllib3.connectionpool DEBUG    https://api.coinbase.com:443 "GET /v2/prices/spot HTTP/1.1" 200 None
+2025-05-31 02:02:32,349 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Dados extraídos com sucesso
+25-05-31 02:02:32 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Dados extraídos com sucesso
+2025-05-31 02:02:32,350 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Iniciando a transformaçao dos dados extraidos.
+25-05-31 02:02:32 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Iniciando a transformaçao dos dados extraidos.
+2025-05-31 02:02:32,352 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Dados transformados com sucesso.
+25-05-31 02:02:32 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Dados transformados com sucesso.
+2025-05-31 02:03:44,551 - BitcoinPriceLogger.bitcoinprice.database.connection - INFO - Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 02:03:44 BitcoinPriceLogger.bitcoinprice.database.connection INFO     Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 02:03:46 sqlalchemy.engine.Engine INFO     select pg_catalog.version()
+25-05-31 02:03:46 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 02:03:46 sqlalchemy.engine.Engine INFO     select current_schema()
+25-05-31 02:03:46 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 02:03:47 sqlalchemy.engine.Engine INFO     show standard_conforming_strings
+25-05-31 02:03:47 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 02:03:47 sqlalchemy.engine.Engine INFO     BEGIN (implicit)
+25-05-31 02:03:47 sqlalchemy.engine.Engine INFO     SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = %(table_name)s AND pg_catalog.pg_class.relkind = ANY (ARRAY[%(param_1)s, %(param_2)s, %(param_3)s, %(param_4)s, %(param_5)s]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != %(nspname_1)s
+25-05-31 02:03:47 sqlalchemy.engine.Engine INFO     [generated in 0.00035s] {'table_name': 'raw_coinbase_price_btc', 'param_1': 'r', 'param_2': 'p', 'param_3': 'f', 'param_4': 'v', 'param_5': 'm', 'nspname_1': 'pg_catalog'}
+25-05-31 02:03:48 sqlalchemy.engine.Engine INFO     COMMIT
+2025-05-31 02:03:48,322 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Iniciando a extração dos dados da API - Coinbase.
+25-05-31 02:03:48 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Iniciando a extração dos dados da API - Coinbase.
+25-05-31 02:03:48 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.coinbase.com:443
+25-05-31 02:03:48 urllib3.connectionpool DEBUG    https://api.coinbase.com:443 "GET /v2/prices/spot HTTP/1.1" 200 None
+2025-05-31 02:03:48,551 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Dados extraídos com sucesso
+25-05-31 02:03:48 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Dados extraídos com sucesso
+2025-05-31 02:03:48,553 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Iniciando a transformaçao dos dados extraidos.
+25-05-31 02:03:48 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Iniciando a transformaçao dos dados extraidos.
+2025-05-31 02:03:48,560 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Dados transformados com sucesso.
+25-05-31 02:03:48 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Dados transformados com sucesso.
+2025-05-31 02:06:11,286 - BitcoinPriceLogger.bitcoinprice.database.connection - INFO - Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 02:06:11 BitcoinPriceLogger.bitcoinprice.database.connection INFO     Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 02:06:13 sqlalchemy.engine.Engine INFO     select pg_catalog.version()
+25-05-31 02:06:13 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 02:06:13 sqlalchemy.engine.Engine INFO     select current_schema()
+25-05-31 02:06:13 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 02:06:14 sqlalchemy.engine.Engine INFO     show standard_conforming_strings
+25-05-31 02:06:14 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 02:06:14 sqlalchemy.engine.Engine INFO     BEGIN (implicit)
+25-05-31 02:06:14 sqlalchemy.engine.Engine INFO     SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = %(table_name)s AND pg_catalog.pg_class.relkind = ANY (ARRAY[%(param_1)s, %(param_2)s, %(param_3)s, %(param_4)s, %(param_5)s]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != %(nspname_1)s
+25-05-31 02:06:14 sqlalchemy.engine.Engine INFO     [generated in 0.00047s] {'table_name': 'raw_coinbase_price_btc', 'param_1': 'r', 'param_2': 'p', 'param_3': 'f', 'param_4': 'v', 'param_5': 'm', 'nspname_1': 'pg_catalog'}
+25-05-31 02:06:14 sqlalchemy.engine.Engine INFO     COMMIT
+2025-05-31 02:06:15,144 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Iniciando a extração dos dados da API - Coinbase.
+25-05-31 02:06:15 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Iniciando a extração dos dados da API - Coinbase.
+2025-05-31 02:06:15,415 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Dados extraídos com sucesso
+25-05-31 02:06:15 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Dados extraídos com sucesso
+2025-05-31 02:06:15,416 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Iniciando a transformaçao dos dados extraidos.
+25-05-31 02:06:15 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Iniciando a transformaçao dos dados extraidos.
+2025-05-31 02:06:15,419 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Dados transformados com sucesso.
+25-05-31 02:06:15 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Dados transformados com sucesso.
+2025-05-31 02:07:19,614 - BitcoinPriceLogger.bitcoinprice.database.connection - INFO - Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 02:07:19 BitcoinPriceLogger.bitcoinprice.database.connection INFO     Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 02:07:21 sqlalchemy.engine.Engine INFO     select pg_catalog.version()
+25-05-31 02:07:21 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 02:07:21 sqlalchemy.engine.Engine INFO     select current_schema()
+25-05-31 02:07:21 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 02:07:22 sqlalchemy.engine.Engine INFO     show standard_conforming_strings
+25-05-31 02:07:22 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 02:07:22 sqlalchemy.engine.Engine INFO     BEGIN (implicit)
+25-05-31 02:07:22 sqlalchemy.engine.Engine INFO     SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = %(table_name)s AND pg_catalog.pg_class.relkind = ANY (ARRAY[%(param_1)s, %(param_2)s, %(param_3)s, %(param_4)s, %(param_5)s]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != %(nspname_1)s
+25-05-31 02:07:22 sqlalchemy.engine.Engine INFO     [generated in 0.00042s] {'table_name': 'raw_coinbase_price_btc', 'param_1': 'r', 'param_2': 'p', 'param_3': 'f', 'param_4': 'v', 'param_5': 'm', 'nspname_1': 'pg_catalog'}
+25-05-31 02:07:23 sqlalchemy.engine.Engine INFO     COMMIT
+2025-05-31 02:07:23,414 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Iniciando a extração dos dados da API - Coinbase.
+25-05-31 02:07:23 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Iniciando a extração dos dados da API - Coinbase.
+2025-05-31 02:07:23,663 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Dados extraídos com sucesso
+25-05-31 02:07:23 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Dados extraídos com sucesso
+2025-05-31 02:07:23,664 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Iniciando a transformaçao dos dados extraidos.
+25-05-31 02:07:23 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Iniciando a transformaçao dos dados extraidos.
+2025-05-31 02:07:23,666 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Dados transformados com sucesso.
+25-05-31 02:07:23 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Dados transformados com sucesso.
+2025-05-31 02:11:44,623 - BitcoinPriceLogger.bitcoinprice.database.connection - INFO - Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 02:11:44 BitcoinPriceLogger.bitcoinprice.database.connection INFO     Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 02:11:46 sqlalchemy.engine.Engine INFO     select pg_catalog.version()
+25-05-31 02:11:46 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 02:11:47 sqlalchemy.engine.Engine INFO     select current_schema()
+25-05-31 02:11:47 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 02:11:48 sqlalchemy.engine.Engine INFO     show standard_conforming_strings
+25-05-31 02:11:48 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 02:11:48 sqlalchemy.engine.Engine INFO     BEGIN (implicit)
+25-05-31 02:11:48 sqlalchemy.engine.Engine INFO     SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = %(table_name)s AND pg_catalog.pg_class.relkind = ANY (ARRAY[%(param_1)s, %(param_2)s, %(param_3)s, %(param_4)s, %(param_5)s]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != %(nspname_1)s
+25-05-31 02:11:48 sqlalchemy.engine.Engine INFO     [generated in 0.00034s] {'table_name': 'raw_coinbase_price_btc', 'param_1': 'r', 'param_2': 'p', 'param_3': 'f', 'param_4': 'v', 'param_5': 'm', 'nspname_1': 'pg_catalog'}
+25-05-31 02:11:48 sqlalchemy.engine.Engine INFO     COMMIT
+2025-05-31 02:11:49,080 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Iniciando a extração dos dados da API - Coinbase.
+25-05-31 02:11:49 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Iniciando a extração dos dados da API - Coinbase.
+2025-05-31 02:11:49,360 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Dados extraídos com sucesso
+25-05-31 02:11:49 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Dados extraídos com sucesso
+2025-05-31 02:11:49,361 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Iniciando a transformaçao dos dados extraidos.
+25-05-31 02:11:49 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Iniciando a transformaçao dos dados extraidos.
+2025-05-31 02:11:49,362 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Dados transformados com sucesso.
+25-05-31 02:11:49 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Dados transformados com sucesso.
+2025-05-31 02:12:10,128 - BitcoinPriceLogger.bitcoinprice.database.connection - INFO - Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 02:12:10 BitcoinPriceLogger.bitcoinprice.database.connection INFO     Conexão com o banco de dados estabelecida com sucesso.
+25-05-31 02:12:11 sqlalchemy.engine.Engine INFO     select pg_catalog.version()
+25-05-31 02:12:11 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 02:12:12 sqlalchemy.engine.Engine INFO     select current_schema()
+25-05-31 02:12:12 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 02:12:12 sqlalchemy.engine.Engine INFO     show standard_conforming_strings
+25-05-31 02:12:12 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-05-31 02:12:13 sqlalchemy.engine.Engine INFO     BEGIN (implicit)
+25-05-31 02:12:13 sqlalchemy.engine.Engine INFO     SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = %(table_name)s AND pg_catalog.pg_class.relkind = ANY (ARRAY[%(param_1)s, %(param_2)s, %(param_3)s, %(param_4)s, %(param_5)s]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != %(nspname_1)s
+25-05-31 02:12:13 sqlalchemy.engine.Engine INFO     [generated in 0.00048s] {'table_name': 'raw_coinbase_price_btc', 'param_1': 'r', 'param_2': 'p', 'param_3': 'f', 'param_4': 'v', 'param_5': 'm', 'nspname_1': 'pg_catalog'}
+25-05-31 02:12:13 sqlalchemy.engine.Engine INFO     COMMIT
+2025-05-31 02:12:14,007 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Iniciando a extração dos dados da API - Coinbase.
+25-05-31 02:12:14 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Iniciando a extração dos dados da API - Coinbase.
+2025-05-31 02:12:14,240 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Dados extraídos com sucesso
+25-05-31 02:12:14 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Dados extraídos com sucesso
+2025-05-31 02:12:14,241 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Iniciando a transformaçao dos dados extraidos.
+25-05-31 02:12:14 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Iniciando a transformaçao dos dados extraidos.
+2025-05-31 02:12:14,244 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Dados transformados com sucesso.
+25-05-31 02:12:14 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Dados transformados com sucesso.
+2025-06-04 19:24:34,783 - BitcoinPriceLogger.bitcoinprice.database.connection - INFO - Conexão com o banco de dados estabelecida com sucesso.
+25-06-04 19:24:34 BitcoinPriceLogger.bitcoinprice.database.connection INFO     Conexão com o banco de dados estabelecida com sucesso.
+25-06-04 19:24:36 sqlalchemy.engine.Engine INFO     select pg_catalog.version()
+25-06-04 19:24:36 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-06-04 19:24:37 sqlalchemy.engine.Engine INFO     select current_schema()
+25-06-04 19:24:37 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-06-04 19:24:37 sqlalchemy.engine.Engine INFO     show standard_conforming_strings
+25-06-04 19:24:37 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-06-04 19:24:38 sqlalchemy.engine.Engine INFO     BEGIN (implicit)
+25-06-04 19:24:38 sqlalchemy.engine.Engine INFO     SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = %(table_name)s AND pg_catalog.pg_class.relkind = ANY (ARRAY[%(param_1)s, %(param_2)s, %(param_3)s, %(param_4)s, %(param_5)s]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != %(nspname_1)s
+25-06-04 19:24:38 sqlalchemy.engine.Engine INFO     [generated in 0.00041s] {'table_name': 'raw_coinbase_price_btc', 'param_1': 'r', 'param_2': 'p', 'param_3': 'f', 'param_4': 'v', 'param_5': 'm', 'nspname_1': 'pg_catalog'}
+25-06-04 19:24:38 sqlalchemy.engine.Engine INFO     COMMIT
+2025-06-04 19:26:47,732 - BitcoinPriceLogger.bitcoinprice.database.connection - INFO - Conexão com o banco de dados estabelecida com sucesso.
+25-06-04 19:26:47 BitcoinPriceLogger.bitcoinprice.database.connection INFO     Conexão com o banco de dados estabelecida com sucesso.
+25-06-04 19:26:49 sqlalchemy.engine.Engine INFO     select pg_catalog.version()
+25-06-04 19:26:49 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-06-04 19:26:50 sqlalchemy.engine.Engine INFO     select current_schema()
+25-06-04 19:26:50 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-06-04 19:26:50 sqlalchemy.engine.Engine INFO     show standard_conforming_strings
+25-06-04 19:26:50 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-06-04 19:26:51 sqlalchemy.engine.Engine INFO     BEGIN (implicit)
+25-06-04 19:26:51 sqlalchemy.engine.Engine INFO     SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = %(table_name)s AND pg_catalog.pg_class.relkind = ANY (ARRAY[%(param_1)s, %(param_2)s, %(param_3)s, %(param_4)s, %(param_5)s]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != %(nspname_1)s
+25-06-04 19:26:51 sqlalchemy.engine.Engine INFO     [generated in 0.00052s] {'table_name': 'raw_coinbase_price_btc', 'param_1': 'r', 'param_2': 'p', 'param_3': 'f', 'param_4': 'v', 'param_5': 'm', 'nspname_1': 'pg_catalog'}
+25-06-04 19:26:51 sqlalchemy.engine.Engine INFO     COMMIT
+2025-06-04 19:26:52,118 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Iniciando a extração dos dados da API - Coinbase.
+25-06-04 19:26:52 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Iniciando a extração dos dados da API - Coinbase.
+25-06-04 19:26:52 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.coinbase.com:443
+25-06-04 19:26:52 urllib3.connectionpool DEBUG    https://api.coinbase.com:443 "GET /v2/prices/spot HTTP/1.1" 200 None
+2025-06-04 19:26:52,945 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Dados extraídos com sucesso
+25-06-04 19:26:52 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Dados extraídos com sucesso
+2025-06-04 19:26:52,946 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Iniciando a transformaçao dos dados extraidos.
+25-06-04 19:26:52 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Iniciando a transformaçao dos dados extraidos.
+2025-06-04 19:26:52,948 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Dados transformados com sucesso.
+25-06-04 19:26:52 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Dados transformados com sucesso.
+25-06-04 19:26:52 sqlalchemy.engine.Engine INFO     BEGIN (implicit)
+25-06-04 19:26:52 sqlalchemy.engine.Engine INFO     INSERT INTO raw_coinbase_price_btc (amount, base, currency, timestamp, version) VALUES (%(amount)s, %(base)s, %(currency)s, %(timestamp)s, %(version)s) RETURNING raw_coinbase_price_btc.id
+25-06-04 19:26:52 sqlalchemy.engine.Engine INFO     [generated in 0.00068s] {'amount': 104898.135, 'base': 'BTC', 'currency': 'USD', 'timestamp': datetime.datetime(2025, 6, 4, 19, 26, 52, 945219), 'version': '1.0'}
+25-06-04 19:26:53 sqlalchemy.engine.Engine INFO     COMMIT
+2025-06-04 19:37:32,386 - BitcoinPriceLogger.bitcoinprice.database.connection - INFO - Conexão com o banco de dados estabelecida com sucesso.
+25-06-04 19:37:32 BitcoinPriceLogger.bitcoinprice.database.connection INFO     Conexão com o banco de dados estabelecida com sucesso.
+25-06-04 19:37:34 sqlalchemy.engine.Engine INFO     select pg_catalog.version()
+25-06-04 19:37:34 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-06-04 19:37:34 sqlalchemy.engine.Engine INFO     select current_schema()
+25-06-04 19:37:34 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-06-04 19:37:35 sqlalchemy.engine.Engine INFO     show standard_conforming_strings
+25-06-04 19:37:35 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-06-04 19:37:35 sqlalchemy.engine.Engine INFO     BEGIN (implicit)
+25-06-04 19:37:35 sqlalchemy.engine.Engine INFO     SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = %(table_name)s AND pg_catalog.pg_class.relkind = ANY (ARRAY[%(param_1)s, %(param_2)s, %(param_3)s, %(param_4)s, %(param_5)s]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != %(nspname_1)s
+25-06-04 19:37:35 sqlalchemy.engine.Engine INFO     [generated in 0.00048s] {'table_name': 'raw_coinbase_price_btc', 'param_1': 'r', 'param_2': 'p', 'param_3': 'f', 'param_4': 'v', 'param_5': 'm', 'nspname_1': 'pg_catalog'}
+25-06-04 19:37:36 sqlalchemy.engine.Engine INFO     COMMIT
+2025-06-04 19:37:36,478 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Iniciando a extração dos dados da API - Coinbase.
+25-06-04 19:37:36 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Iniciando a extração dos dados da API - Coinbase.
+25-06-04 19:37:36 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.coinbase.com:443
+25-06-04 19:37:36 urllib3.connectionpool DEBUG    https://api.coinbase.com:443 "GET /v2/prices/spot HTTP/1.1" 200 None
+2025-06-04 19:37:36,761 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Dados extraídos com sucesso
+25-06-04 19:37:36 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Dados extraídos com sucesso
+2025-06-04 19:37:36,763 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Iniciando a transformaçao dos dados extraidos.
+25-06-04 19:37:36 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Iniciando a transformaçao dos dados extraidos.
+2025-06-04 19:37:36,766 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Dados transformados com sucesso.
+25-06-04 19:37:36 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Dados transformados com sucesso.
+25-06-04 19:37:36 sqlalchemy.engine.Engine INFO     BEGIN (implicit)
+25-06-04 19:37:36 sqlalchemy.engine.Engine INFO     INSERT INTO raw_coinbase_price_btc (amount, base, currency, timestamp, version) VALUES (%(amount)s, %(base)s, %(currency)s, %(timestamp)s, %(version)s) RETURNING raw_coinbase_price_btc.id
+25-06-04 19:37:36 sqlalchemy.engine.Engine INFO     [generated in 0.00055s] {'amount': 104888.605, 'base': 'BTC', 'currency': 'USD', 'timestamp': datetime.datetime(2025, 6, 4, 19, 37, 36, 761708), 'version': '1.0'}
+25-06-04 19:37:37 sqlalchemy.engine.Engine INFO     COMMIT
+2025-06-04 19:42:43,105 - BitcoinPriceLogger.bitcoinprice.database.connection - INFO - Conexão com o banco de dados estabelecida com sucesso.
+25-06-04 19:42:43 BitcoinPriceLogger.bitcoinprice.database.connection INFO     Conexão com o banco de dados estabelecida com sucesso.
+25-06-04 19:42:44 sqlalchemy.engine.Engine INFO     select pg_catalog.version()
+25-06-04 19:42:44 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-06-04 19:42:45 sqlalchemy.engine.Engine INFO     select current_schema()
+25-06-04 19:42:45 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-06-04 19:42:45 sqlalchemy.engine.Engine INFO     show standard_conforming_strings
+25-06-04 19:42:45 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-06-04 19:42:46 sqlalchemy.engine.Engine INFO     BEGIN (implicit)
+25-06-04 19:42:46 sqlalchemy.engine.Engine INFO     SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = %(table_name)s AND pg_catalog.pg_class.relkind = ANY (ARRAY[%(param_1)s, %(param_2)s, %(param_3)s, %(param_4)s, %(param_5)s]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != %(nspname_1)s
+25-06-04 19:42:46 sqlalchemy.engine.Engine INFO     [generated in 0.00034s] {'table_name': 'raw_coinbase_price_btc', 'param_1': 'r', 'param_2': 'p', 'param_3': 'f', 'param_4': 'v', 'param_5': 'm', 'nspname_1': 'pg_catalog'}
+25-06-04 19:42:46 sqlalchemy.engine.Engine INFO     COMMIT
+2025-06-04 19:42:46,990 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Iniciando a extração dos dados da API - Coinbase.
+25-06-04 19:42:46 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Iniciando a extração dos dados da API - Coinbase.
+25-06-04 19:42:47 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.coinbase.com:443
+25-06-04 19:42:47 urllib3.connectionpool DEBUG    https://api.coinbase.com:443 "GET /v2/prices/spot HTTP/1.1" 200 None
+2025-06-04 19:42:47,465 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Dados extraídos com sucesso
+25-06-04 19:42:47 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Dados extraídos com sucesso
+2025-06-04 19:42:47,466 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Iniciando a transformaçao dos dados extraidos.
+25-06-04 19:42:47 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Iniciando a transformaçao dos dados extraidos.
+2025-06-04 19:42:47,467 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Dados transformados com sucesso.
+25-06-04 19:42:47 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Dados transformados com sucesso.
+2025-06-04 19:42:47,467 - BitcoinPriceLogger.bitcoinprice.tests.test_load - INFO - Iniciado a inserçao dos dados no banco de dados.
+25-06-04 19:42:47 BitcoinPriceLogger.bitcoinprice.tests.test_load INFO     Iniciado a inserçao dos dados no banco de dados.
+25-06-04 19:42:47 sqlalchemy.engine.Engine INFO     BEGIN (implicit)
+25-06-04 19:42:47 sqlalchemy.engine.Engine INFO     INSERT INTO raw_coinbase_price_btc (amount, base, currency, timestamp, version) VALUES (%(amount)s, %(base)s, %(currency)s, %(timestamp)s, %(version)s) RETURNING raw_coinbase_price_btc.id
+25-06-04 19:42:47 sqlalchemy.engine.Engine INFO     [generated in 0.00048s] {'amount': 104963.335, 'base': 'BTC', 'currency': 'USD', 'timestamp': datetime.datetime(2025, 6, 4, 19, 42, 47, 465608), 'version': '1.0'}
+25-06-04 19:42:47 sqlalchemy.engine.Engine INFO     COMMIT
+2025-06-04 19:42:48,088 - BitcoinPriceLogger.bitcoinprice.tests.test_load - INFO - Dados carregados com sucesso no banco de dados.
+25-06-04 19:42:48 BitcoinPriceLogger.bitcoinprice.tests.test_load INFO     Dados carregados com sucesso no banco de dados.
+2025-06-09 09:12:15,885 - BitcoinPriceLogger.bitcoinprice.database.connection - INFO - Conexão com o banco de dados estabelecida com sucesso.
+25-06-09 09:12:15 BitcoinPriceLogger.bitcoinprice.database.connection INFO     Conexão com o banco de dados estabelecida com sucesso.
+25-06-09 09:12:17 sqlalchemy.engine.Engine INFO     select pg_catalog.version()
+25-06-09 09:12:17 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-06-09 09:12:18 sqlalchemy.engine.Engine INFO     select current_schema()
+25-06-09 09:12:18 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-06-09 09:12:18 sqlalchemy.engine.Engine INFO     show standard_conforming_strings
+25-06-09 09:12:18 sqlalchemy.engine.Engine INFO     [raw sql] {}
+25-06-09 09:12:19 sqlalchemy.engine.Engine INFO     BEGIN (implicit)
+25-06-09 09:12:19 sqlalchemy.engine.Engine INFO     SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = %(table_name)s AND pg_catalog.pg_class.relkind = ANY (ARRAY[%(param_1)s, %(param_2)s, %(param_3)s, %(param_4)s, %(param_5)s]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != %(nspname_1)s
+25-06-09 09:12:19 sqlalchemy.engine.Engine INFO     [generated in 0.00035s] {'table_name': 'raw_coinbase_price_btc', 'param_1': 'r', 'param_2': 'p', 'param_3': 'f', 'param_4': 'v', 'param_5': 'm', 'nspname_1': 'pg_catalog'}
+25-06-09 09:12:19 sqlalchemy.engine.Engine INFO     COMMIT
+2025-06-09 09:12:19,733 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Iniciando a extração dos dados da API - Coinbase.
+25-06-09 09:12:19 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Iniciando a extração dos dados da API - Coinbase.
+25-06-09 09:12:19 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.coinbase.com:443
+25-06-09 09:12:20 urllib3.connectionpool DEBUG    https://api.coinbase.com:443 "GET /v2/prices/spot HTTP/1.1" 200 None
+2025-06-09 09:12:20,016 - BitcoinPriceLogger.bitcoinprice.tests.test_extract - INFO - Dados extraídos com sucesso
+25-06-09 09:12:20 BitcoinPriceLogger.bitcoinprice.tests.test_extract INFO     Dados extraídos com sucesso
+2025-06-09 09:12:20,017 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Iniciando a transformaçao dos dados extraidos.
+25-06-09 09:12:20 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Iniciando a transformaçao dos dados extraidos.
+2025-06-09 09:12:20,019 - BitcoinPriceLogger.bitcoinprice.tests.test_transform - INFO - Dados transformados com sucesso.
+25-06-09 09:12:20 BitcoinPriceLogger.bitcoinprice.tests.test_transform INFO     Dados transformados com sucesso.
+2025-06-09 09:12:20,019 - BitcoinPriceLogger.bitcoinprice.tests.test_load - INFO - Iniciado a inserçao dos dados no banco de dados.
+25-06-09 09:12:20 BitcoinPriceLogger.bitcoinprice.tests.test_load INFO     Iniciado a inserçao dos dados no banco de dados.
+25-06-09 09:12:20 sqlalchemy.engine.Engine INFO     BEGIN (implicit)
+25-06-09 09:12:20 sqlalchemy.engine.Engine INFO     INSERT INTO raw_coinbase_price_btc (amount, base, currency, timestamp, version) VALUES (%(amount)s, %(base)s, %(currency)s, %(timestamp)s, %(version)s) RETURNING raw_coinbase_price_btc.id
+25-06-09 09:12:20 sqlalchemy.engine.Engine INFO     [generated in 0.00046s] {'amount': 109883.53, 'base': 'BTC', 'currency': 'USD', 'timestamp': datetime.datetime(2025, 6, 9, 9, 12, 20, 16176), 'version': '1.0'}
+25-06-09 09:12:20 sqlalchemy.engine.Engine INFO     COMMIT
+2025-06-09 09:12:20,781 - BitcoinPriceLogger.bitcoinprice.tests.test_load - INFO - Dados carregados com sucesso no banco de dados.
+25-06-09 09:12:20 BitcoinPriceLogger.bitcoinprice.tests.test_load INFO     Dados carregados com sucesso no banco de dados.
